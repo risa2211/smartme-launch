@@ -230,6 +230,53 @@ sup {
 .speakers .heading {
   color: var(--voilet);
 }
+.speakers .row .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.speakers .row .content .speaker , .speaker1{
+  text-align: center;
+  margin: 0 10px;
+}
+
+.speakers .row .content .speaker img{
+  max-width: 180vh;
+  max-height: 80%;
+  border-radius: 5rem;
+  height: auto;
+  margin-bottom: 10px;
+  box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+}
+.speakers .row .content .speaker1 img{
+  max-width: 80%;
+  border-radius: 4rem;
+  height: auto;
+  margin-bottom: 10px;
+  box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+}
+
+.speakers .row .content .speaker h4,
+.speakers .row .content .speaker1 h4
+.speakers .row .content .speaker p ,
+.speakers .row .content .speaker1 p{
+  margin: 0;
+}
+.speakers .row .content .speaker h4,
+ .speakers .row .content .speaker1 h4 {
+  font-size: 2rem;
+}
+.speakers .row .content .speaker p, 
+.speakers .row .content .speaker1 p {
+  font-size: 1.4rem;
+  color: #000;
+  text-transform: capitalize;
+  padding-bottom: 20px;
+}
+
+
 .about .row, .partners .row, .speakers .row {
   display: flex;
   justify-content: center;
